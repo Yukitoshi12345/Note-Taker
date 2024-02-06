@@ -41,3 +41,18 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   `
   npm i express
   `
+
+## Screenshot
+[Coming Soon]
+
+## Video
+A walk through video is [here](link).
+
+## Output
+
+## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/yukitoshi12345/Note-Taker/](https://github.com/yukitoshi12345/Note-Taker)
+
+You can access the deployed application with Heroku:
+[Link](Link)
