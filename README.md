@@ -1,14 +1,15 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue) ![Express.js](https://img.shields.io/badge/Express.js-green)
 
-
 <h1 align = "center"> Note Taker </h1>
+
+Struggling to juggle multiple tasks and fleeting ideas? As a small business owner, organisation is key. This note-taking application is designed to be your digital haven, helping you capture important thoughts and manage your to-do list with ease. Dive into clear instructions and intuitive features, allowing you to effortlessly save and access your notes whenever inspiration strikes. Let's get you started on streamlining your workflow and keeping your business on track.
 
 ## User Story
 
 ```
 AS A small business owner
 I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+SO THAT I can organise my thoughts and keep track of tasks I need to complete
 ```
 
 ## Acceptance Criteria
