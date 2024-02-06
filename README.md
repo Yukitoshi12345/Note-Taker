@@ -1,3 +1,6 @@
+![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue) ![Express.js](https://img.shields.io/badge/Express.js-green)
+
+
 <h1 align = "center"> Note Taker </h1>
 
 ## User Story
