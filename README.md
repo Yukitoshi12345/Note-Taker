@@ -36,12 +36,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - Express.js
 
 ## Test Instruction
-  #### Command to install node:
+  #### Command to Install node:
   `
   npm install
   `
 
-  #### install npm:
+  #### Command to Install npm:
   `
   npm init -y
   `
