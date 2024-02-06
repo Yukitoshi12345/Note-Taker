@@ -33,7 +33,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Technologies Used
 - JavaScript
 - Node.js
-- Express.js
+- Express.js (version 4.18.2)
 
 ## Test Instruction
   #### Command to Install node:
