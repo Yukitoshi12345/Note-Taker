@@ -25,3 +25,19 @@ THEN that note appears in the right-hand column and a "New Note" button appears 
 WHEN I click on the "New Note" button in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 ```
+
+## Technologies Used
+- JavaScript
+- Node.js
+- Express.js
+
+## Test Instruction
+  #### Command to install node:
+  `
+  npm install
+  `
+  
+  #### Command to install Express dependencies:
+  `
+  npm i express
+  `
