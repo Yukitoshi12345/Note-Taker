@@ -40,10 +40,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   `
   npm install
   `
-  
+
+  #### install npm:
+  `
+  npm init -y
+  `
   #### Command to install Express dependencies:
   `
-  npm i express
+  npm i express@4.18.2
   `
 
 ## Screenshot
