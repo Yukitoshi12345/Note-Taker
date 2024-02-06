@@ -1,5 +1,4 @@
-# Note-Taker
-
+<h1 align = "center"> Note Taker </h1>
 
 ## User Story
 
