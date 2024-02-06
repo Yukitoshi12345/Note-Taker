@@ -4,8 +4,19 @@
 
 Struggling to juggle multiple tasks and fleeting ideas? As a small business owner, organisation is key. This note-taking application is designed to be your digital haven, helping you capture important thoughts and manage your to-do list with ease. Dive into clear instructions and intuitive features, allowing you to effortlessly save and access your notes whenever inspiration strikes. Let's get you started on streamlining your workflow and keeping your business on track.
 
-## User Story
+## Table of Contents
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Technologies Used](#technologies-used)
+- [Test Instruction](#test-instruction)
+- [Screenshot](#screenshot)
+- [Video](#video)
+- [Output](#output)
+- [Installation](#installation)
+- [License](#license)
 
+
+## User Story
 ```
 AS A small business owner
 I WANT to be able to write and save notes
@@ -13,7 +24,6 @@ SO THAT I can organise my thoughts and keep track of tasks I need to complete
 ```
 
 ## Acceptance Criteria
-
 ```
 GIVEN a note-taking application
 WHEN I open the Note Taker
