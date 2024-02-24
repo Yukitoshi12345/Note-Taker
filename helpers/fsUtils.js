@@ -22,5 +22,7 @@ const readAndAppend = (content, file) => {
 };
 
 // TODO: add deleting a note
+// delete note is just a placeholder including inside the module.exports
+const deleteNote = readFromFile
+module.exports = { readFromFile, writeToFile, readAndAppend, deleteNote };
 
-module.exports = { readFromFile, writeToFile, readAndAppend };
