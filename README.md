@@ -46,12 +46,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - Express.js (version 4.18.2)
 
 ## Test Instruction
-  #### Command to Install node:
+  #### Command to Install packages:
   `
   npm install
   `
 
-  #### Command to Install npm:
+  #### Command to Install package.json and package-lock.json:
   `
   npm init -y
   `
@@ -64,7 +64,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 [Coming Soon]
 
 ## Video
-A walk through video is [here](link).
+
+![]()
 
 ## Output
 
