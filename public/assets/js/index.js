@@ -37,28 +37,41 @@ let activeNote = {};
 
 // Functions for interacting with the notes API
 
+
+// **Function:** getNotes
+// Purpose: Fetches all notes from the API endpoint "/api/notes"
+// Returns: Promise object resolving to the fetched notes data
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json' // Specify JSON data type in request
     }
   });
 
+
+// **Function:** saveNote
+// Purpose: Saves a new note to the API endpoint "/api/notes"
+// Parameters: note object containing the note data
+// Returns: Promise object resolving to the saved note data
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json' // Specify JSON data type in request
     },
     body: JSON.stringify(note)
   });
 
+// **Function:** deleteNote
+// Purpose: Deletes a note from the API endpoint "/api/notes/:id"
+// Parameters: id (number) of the note to delete
+// Returns: Promise object resolving to the deletion response
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json' // Specify JSON data type in request
     }
   });
 
