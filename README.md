@@ -1,4 +1,4 @@
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Node.js](https://img.shields.io/badge/Node.js-teal) ![Express.js](https://img.shields.io/badge/Express.js-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-orange) ![Node.js](https://img.shields.io/badge/Node.js-blue) ![Express.js@4.18.2](https://img.shields.io/badge/Express.js@4.18.2-purple)
 
 <h1 align = "center"> Note Taker </h1>
 
@@ -8,7 +8,6 @@ Struggling to juggle multiple tasks and fleeting ideas? As a small business owne
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Technologies Used](#technologies-used)
-- [Test Instruction](#test-instruction)
 - [Screenshot](#screenshot)
 - [Video](#video)
 - [Output](#output)
@@ -45,20 +44,6 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - Node.js
 - Express.js (version 4.18.2)
 
-## Test Instruction
-  #### Command to Install packages:
-  `
-  npm install
-  `
-
-  #### Command to Install package.json and package-lock.json:
-  `
-  npm init -y
-  `
-  #### Command to install Express dependencies:
-  `
-  npm i express@4.18.2
-  `
 
 ## Screenshot
 ![](/public/assets/images/note-taker.png)
