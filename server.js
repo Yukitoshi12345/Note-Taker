@@ -28,8 +28,6 @@ app.use('/api', api);
 app.use(express.static('public'));
 
 
-// TODO: Add get routes for notes.html and index.html
-
 // GET Route for notes page
 // Define a GET route for the notes page, serving the notes.html file
 app.get('/notes', (req, res) =>
