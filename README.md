@@ -37,6 +37,8 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
 WHEN I click on the "New Note" button in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
+WHEN I click on the bin button associated with an existing note in the list
+THEN the selected note disappears from the list and is permanently deleted
 ```
 
 ## Technologies Used
@@ -46,13 +48,41 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 ## Screenshot
+Note taker on Heroku Application:
+
 ![](/public/assets/images/note-taker.png)
 
 ## Video
+This demonstrates testing API GET, POST, and DELETE routes using Insomnia:
+
+![](/public/assets/video/insomnia.gif)
+
+<br>
+
+This guide explains effective methods for capturing and managing notes within the Heroku platform:
 
 ![](/public/assets/video/note-taker.gif)
 
 ## Output
+This note-taking application deployed on Heroku allows you, as a small business owner, to easily organize your thoughts and keep track of tasks. Here's how it works:
+
+<b>Landing Page: </b> Upon opening the application, you'll see a landing page with a clear link directing you to the note-taking section.
+
+<b> Notes Page: </b> Clicking the link leads you to the main notes page. Here, you'll find:
+- A list of your existing notes displayed in the left-hand column.
+- Empty fields on the right-hand side for creating a new note title and its content.
+
+<b> Creating a New Note: </b> Enter a descriptive title and the details of your note in the designated fields.
+
+<b> Saving Your Note: </b> Click the "Save Note" button to save your newly created note. It will then be added to the list alongside your existing notes.
+
+<b> Viewing Existing Notes: </b> Clicking on a note in the list displays its content in the right-hand column, allowing you to review or edit it.
+
+<b> Creating a New Note After Viewing: </b> Clicking the "New Note" button clears the current note display and presents you with empty fields for creating a new one.
+
+<b> Deleting Notes: </b> If you no longer need a note, click the "bin" button associated with it in the list. This permanently removes the selected note from the application.
+
+<b> Remember: </b> This deployed application on Heroku ensures your notes are readily accessible from any device with an internet connection, keeping you organised and on top of your tasks.
 
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
