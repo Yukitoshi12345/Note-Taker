@@ -1,5 +1,4 @@
 // Declare variables for key elements
-let noteForm;
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -9,7 +8,6 @@ let noteList;
 // If on the notes page, select elements for interaction
 if (window.location.pathname === '/notes') {
   // Select form elements, buttons, and list container
-  noteForm = document.querySelector('.note-form');
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
@@ -253,7 +251,8 @@ if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
   newNoteBtn.addEventListener('click', handleNewNoteView);
   clearBtn.addEventListener('click', renderActiveNote);
-  noteForm.addEventListener('input', handleRenderBtns);
+  noteText.addEventListener('input', handleRenderBtns);
+  noteTitle.addEventListener('input', handleRenderBtns);
 }
 
 // Initiate the note fetching and rendering process
