@@ -26,13 +26,13 @@ const readAndAppend = (content, file) => {
 };
 
 // Function to read from a file, delete content by idToDelete, and write back to the file
-const readAndDelete = (idToDelete, file) => {
+const readAndDelete = (id, file) => {
   fs.readFile(file, 'utf8', (err, data) => { // Reading from the file
     if (err) {
         console.error(err); // Logging error if encountered
     } else {
-        const parsedData = JSON.parse(data); // Parsing the existing data as JSON
-        parsedData.filter(note => note.id !== idToDelete); // Filtering out the content with the specified id
+        let parsedData = JSON.parse(data); // Parsing the existing data as JSON
+        parsedData = parsedData.filter(note => note.id !== id); // Filtering out the content with the specified id
         writeToFile(file, parsedData); // Writing updated content back to the file
       }
     });

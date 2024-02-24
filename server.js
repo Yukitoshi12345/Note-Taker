@@ -13,8 +13,8 @@ const PORT = process.env.PORT || 3001;
 // Create an instance of the Express application
 const app = express();
 
-// Import custom middleware, "cLog"
-// Apply the custom cLog middleware to log request details
+// Import custom middleware, "clog"
+// Apply the custom clog middleware to log request details
 app.use(clog);
 
 // Parse incoming JSON data
