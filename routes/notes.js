@@ -27,12 +27,7 @@ router.post('/', (req, res) => {
     // Appending new note to file
     readAndAppend(newNotes, './db/db.json');
 
-    const response = {
-      status: 'success',
-      body: newNotes,
-    };
-
-    res.json('response'); // Sending success response
+    res.json(newNotes); // Sending success response
   } else {
     res.json('Error in adding notes'); // Sending error response
   }
