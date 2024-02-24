@@ -1,3 +1,4 @@
+/* Set the height of the entire page and remove default margin and padding */
 html,
 body {
   height: 100%;
@@ -5,10 +6,12 @@ body {
   padding: 0;
 }
 
+/* Hide certain elements by default */
 .save-note, .new-note, .clear-btn {
   display: none;
 }
 
+/* Style icons */
 .icons {
   margin-left: 15px;
   margin-right: 15px;
@@ -16,6 +19,7 @@ body {
   cursor: pointer;
 }
 
+/* Style note title and textarea */
 .note-textarea,
 .note-title {
   color: #000000;
@@ -24,23 +28,27 @@ body {
   border: none;
 }
 
+/* Additional styling for note textarea */
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
 }
 
+/* Additional styling for note title */
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
 }
 
+/* Apply a lighter color to read-only elements */
 .note-title:read-only,
 .note-textarea:read-only {
   color: #757575;
 }
 
+/* Style cards in list container */
 .list-container .card {
   height: calc(100vh - 70px);
   border-bottom: none;
@@ -48,10 +56,12 @@ body {
   border-bottom-left-radius: 0;
 }
 
+/* Remove default padding from list container */
 .list-container {
   padding-left: 0;
 }
 
+/* Remove top borders and adjust radius for list elements */
 .list-container .list-group,
 .list-container .list-group-item:first-child,
 .list-container .card {
@@ -60,16 +70,19 @@ body {
   border-top-left-radius: 0;
 }
 
+/* Style list item title */
 .list-item-title {
   display: inline-block;
   width: 75%;
 }
 
+/* Style icons in list container */
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
 }
 
+/* Style list group items */
 .list-container .list-group-item {
   border-left: none;
   border-right: none;
