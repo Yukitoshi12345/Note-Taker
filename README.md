@@ -61,11 +61,11 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   `
 
 ## Screenshot
-[Coming Soon]
+![](/public/assets/images/note-taker.png)
 
 ## Video
 
-![]()
+![](/public/assets/video/note-taker.gif)
 
 ## Output
 
