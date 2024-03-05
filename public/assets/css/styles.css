@@ -7,7 +7,9 @@ body {
 }
 
 /* Hide certain elements by default */
-.save-note, .new-note, .clear-btn {
+.save-note,
+.new-note,
+.clear-btn {
   display: none;
 }
 
