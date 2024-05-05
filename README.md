@@ -123,7 +123,7 @@ The project was uploaded to [GitHub](https://github.com/) at the following repos
 [https://github.com/yukitoshi12345/Note-Taker/](https://github.com/yukitoshi12345/Note-Taker)
 
 You can access the deployed application with Heroku:
-[https://radiant-eyrie-65265-70b5155917c9.herokuapp.com/](https://radiant-eyrie-65265-70b5155917c9.herokuapp.com/)
+[https://yukitoshi-note-taker-83dab30afae7.herokuapp.com/](https://yukitoshi-note-taker-83dab30afae7.herokuapp.com/)
 
 ## License
 
